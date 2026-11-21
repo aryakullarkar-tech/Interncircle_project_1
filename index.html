@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Personal portfolio of a BCA student learning web development.">
+  <title>My Portfolio | Aspiring Web Developer</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="site-header">
+    <nav class="nav container" aria-label="Main navigation">
+      <a class="brand" href="#home" aria-label="Portfolio home"><span class="brand-mark">A</span> <span>Portfolio<span class="brand-dot">.</span></span></a>
+      <button class="menu-toggle" aria-label="Open navigation menu" aria-expanded="false">☰</button>
+      <ul class="nav-links">
+        <li><a href="#about">About</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a class="nav-contact" href="#contact">Contact <span aria-hidden="true">↗</span></a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero container" id="home">
+      <div class="hero-copy">
+        <p class="eyebrow"><span class="status-dot"></span> OPEN TO LEARNING & OPPORTUNITIES</p>
+        <h1>Hello, I'm <span class="gradient-text">Arya.</span><br> aspiring web developer.</h1>
+        <p class="hero-description">I'm a BCA student exploring the world of web development. I enjoy learning new technologies and turning ideas into clean, user-friendly websites.</p>
+        <div class="hero-actions">
+          <a class="button button-primary" href="#projects">Explore my work <span aria-hidden="true">↗</span></a>
+          <a class="button button-secondary" href="#contact">Get in touch</a>
+        </div>
+        <div class="hero-meta"><span>📍 Nagpur, India</span><span class="meta-divider">•</span><span>Currently learning HTML & CSS</span></div>
+      </div>
+      <div class="hero-art" aria-label="Decorative illustration representing web development">
+        <div class="art-orbit orbit-one"></div><div class="art-orbit orbit-two"></div>
+        <div class="code-window">
+          <div class="window-top"><span></span><span></span><span></span><small>my-portfolio.html</small></div>
+          <div class="code-lines">
+            <p><i>01</i> <b class="pink">&lt;html&gt;</b></p>
+            <p><i>02</i> &nbsp;&nbsp;<b class="blue">&lt;h1&gt;</b></p>
+            <p><i>03</i> &nbsp;&nbsp;&nbsp;&nbsp;<em>Hello, world!</em></p>
+            <p><i>04</i> &nbsp;&nbsp;<b class="blue">&lt;/h1&gt;</b></p>
+            <p><i>05</i> <b class="pink">&lt;/html&gt;</b></p>
+          </div>
+          <div class="code-badge">✦ &nbsp; Learning by building</div>
+        </div>
+        <div class="floating-card card-top">✧ <span>Creative ideas</span></div>
+        <div class="floating-card card-bottom"><span class="mini-check">✓</span> <span>Always learning</span></div>
+      </div>
+    </section>
+
+    <section class="section about-section" id="about">
+      <div class="container about-grid">
+        <div><p class="section-kicker">01 / ABOUT ME</p><h2>A little about <span class="gradient-text">my journey.</span></h2></div>
+        <div class="about-content">
+          <p class="lead">I am a Bachelor of Computer Applications (BCA) student with a growing interest in building websites.</p>
+          <p>I'm at the beginning of my development journey, strengthening my fundamentals one step at a time. I believe in staying curious, practising consistently and learning through real projects.</p>
+          <div class="about-facts">
+            <div><strong>BCA</strong><span>Education</span></div>
+            <div><strong>Beginner</strong><span>Experience level</span></div>
+            <div><strong>Curious</strong><span>Mindset</span></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section container" id="skills">
+      <p class="section-kicker">02 / WHAT I WORK WITH</p>
+      <div class="section-heading"><h2>Skills & <span class="gradient-text">learning.</span></h2><p>Technologies I'm learning and practising as I grow.</p></div>
+      <div class="skills-grid">
+        <article class="skill-card"><div class="skill-icon">⌘</div><h3>HTML5</h3><p>Building structured and meaningful web pages.</p><span class="skill-level">Learning</span></article>
+        <article class="skill-card"><div class="skill-icon">✳</div><h3>CSS3</h3><p>Styling layouts with Flexbox, Grid and responsive design.</p><span class="skill-level">Learning</span></article>
+        <article class="skill-card"><div class="skill-icon">🐍</div><h3>Python</h3><p>Practising programming fundamentals and problem solving.</p><span class="skill-level">Learning</span></article>
+        <article class="skill-card"><div class="skill-icon">☕</div><h3>Java</h3><p>Understanding object-oriented programming concepts.</p><span class="skill-level">Learning</span></article>
+        <article class="skill-card"><div class="skill-icon">▤</div><h3>SQL</h3><p>Exploring databases and basic query concepts.</p><span class="skill-level">Exploring</span></article>
+        <article class="skill-card"><div class="skill-icon">⌁</div><h3>Git & GitHub</h3><p>Learning how to track and share code projects.</p><span class="skill-level">Exploring</span></article>
+      </div>
+    </section>
+
+    <section class="section projects-section" id="projects">
+      <div class="container">
+        <p class="section-kicker">03 / SELECTED WORK</p>
+        <div class="section-heading"><h2>Things I'm <span class="gradient-text">building.</span></h2><p>Practice projects that help me turn concepts into experience.</p></div>
+        <div class="projects-grid">
+          <article class="project-card">
+            <div class="project-preview preview-one"><div class="preview-browser"><span></span><span></span><span></span><div class="preview-content"><b>hello, world.</b><i></i><i></i><div class="preview-button"></div></div></div></div>
+            <div class="project-info"><div class="project-topline"><span>01 / WEB DESIGN</span><span class="project-status">Portfolio</span></div><h3>Personal Portfolio Website</h3><p>A responsive one-page website introducing my background, skills and learning journey.</p><div class="tags"><span>HTML</span><span>CSS</span><span>Responsive</span></div></div>
+          </article>
+          <article class="project-card">
+            <div class="project-preview preview-two"><div class="todo-mock"><div class="todo-title">My task list <span>✦</span></div><div class="todo-row"><b>✓</b> Study HTML basics</div><div class="todo-row"><b>✓</b> Practise CSS Grid</div><div class="todo-row"><b>○</b> Build a new page</div></div></div>
+            <div class="project-info"><div class="project-topline"><span>02 / UI CONCEPT</span><span class="project-status">Practice idea</span></div><h3>Student Task Planner</h3><p>A simple task-planner interface concept designed to organise study tasks and daily goals.</p><div class="tags"><span>HTML</span><span>CSS</span><span>UI Design</span></div></div>
+          </article>
+        </div>
+        <p class="project-note">Note: These are learning/practice portfolio entries. Add your own completed project links as you build them.</p>
+      </div>
+    </section>
+
+    <section class="contact-section" id="contact">
+      <div class="container contact-inner">
+        <p class="section-kicker">04 / SAY HELLO</p>
+        <h2>Have an idea?<br><span class="gradient-text">Let's connect.</span></h2>
+        <p>I'm always happy to learn, collaborate and connect with people who enjoy creating things.</p>
+        <a class="button button-primary" href="mailto:your-email@example.com">Email me <span aria-hidden="true">↗</span></a>
+        <p class="contact-hint">Before publishing, replace this email and add your own social profile links.</p>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container footer-inner"><a class="brand" href="#home"><span class="brand-mark">A</span> <span>Portfolio<span class="brand-dot">.</span></span></a><p>Designed & built with curiosity. © <span id="year">2026</span></p><a href="#home" class="back-top">Back to top ↑</a></div>
+  </footer>
+  <script>
+    const menuButton = document.querySelector('.menu-toggle');
+    const navLinks = document.querySelector('.nav-links');
+    menuButton.addEventListener('click', () => {
+      const isOpen = navLinks.classList.toggle('is-open');
+      menuButton.setAttribute('aria-expanded', String(isOpen));
+      menuButton.setAttribute('aria-label', isOpen ? 'Close navigation menu' : 'Open navigation menu');
+    });
+    document.querySelectorAll('.nav-links a').forEach(link => link.addEventListener('click', () => {
+      navLinks.classList.remove('is-open');
+      menuButton.setAttribute('aria-expanded', 'false');
+    }));
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
